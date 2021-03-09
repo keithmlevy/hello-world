@@ -1,2 +1,4 @@
 # hello-world
-My first repository
+
+Hello there.  I love devops and learning about new technologies!
+I love everything Disney and have been to Disney World and/or Disneyland almost 30 times!  °o°
