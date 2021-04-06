@@ -1,11 +1,12 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  check-bats-version:
+  test-local-action:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
       - run: hostname
+      - run: pwd
       - run: ls -l
       - run: touch /tmp/keith-action.txt
       - run: ls -ltra /tmp
