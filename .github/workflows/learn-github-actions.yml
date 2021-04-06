@@ -1,0 +1,11 @@
+name: learn-github-actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - run: hostname
+      - run: ls -l
+      - run: touch /tmp/keith-action.txt
+      - run: ls -ltra /tmp
